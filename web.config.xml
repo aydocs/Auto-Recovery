@@ -1,0 +1,11 @@
+<rewrite>
+    <rules>
+        <rule name="Redirect to https" stopProcessing="true">
+            <match url="(.*)" />
+            <conditions>
+                <add input="{HTTPS}" pattern="off" ignoreCase="true" />
+            </conditions>
+            <action type="Redirect" url="https://{HTTP_HOST}/{R:1}" redirectType="Permanent" />
+        </rule>
+    </rules>
+</rewrite>
