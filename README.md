@@ -1,2 +1,2 @@
 # Auto-Recovery
- Ada Star Auto Recovery Website Source Codes adayildizotokurtarma.com.tr
+ Ada Star Auto Recovery Website Source Codes adayildizotokurtarma.com
